@@ -89,7 +89,7 @@ struct Args {
     #[arg(short, long, env = "USERNAME")]
     user: String,
 
-    /// Azuee DevOps access token
+    /// Azure DevOps personal access token
     #[arg(long, env = "ACCESS_TOKEN")]
     token: String,
 
